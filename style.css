@@ -9,18 +9,6 @@ h1{color:grey;font-family:verdana}
     align: center
 }
 
-#principal{
-    padding-left:70px;
-}
-
-#rate{
-    padding-left:70px;
-}
-
-#years{
-    padding-left:70px;
-}
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
