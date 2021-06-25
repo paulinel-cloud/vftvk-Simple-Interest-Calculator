@@ -9,6 +9,7 @@ h1{color:grey;font-family:verdana}
     align: center
 }
 
+/*below exists to ensure that Amount input box does not have accompaning side arrows*/
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
