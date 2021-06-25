@@ -1,13 +1,22 @@
 body {background-color:black; font-family:arial; color:white}
 h1{color:grey;font-family:verdana}
-
 .maindiv {
     background-color:white;
     color:black;
     width:300px;
-    padding: 20px;
-    border-radius: 25px;
+    padding:20px;
+    border-radius:25px;
     align: center
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
 
