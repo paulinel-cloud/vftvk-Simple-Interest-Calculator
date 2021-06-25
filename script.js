@@ -12,8 +12,8 @@ function compute()
         alert("Enter a positive number")
         document.getElementById("principal").focus();
     } else { //otherwise if valid input, will return accumulated interest text
-        document.getElementById("result").innerHTML = "If you deposit <mark>" + principal + "</mark>,<br/>at an interest rate of <mark>" +
-        rate + "%</mark>.<br/>You will receive an amount of <mark>" + interest + "</mark>,<br/>in the year <mark>" + year.toString() + "</mark>";
+        document.getElementById("result").innerHTML = "<br/>If you deposit <mark>" + principal + "</mark>,<br/>at an interest rate of <mark>" +
+        rate + "%</mark>.<br/>You will receive an amount of <mark>" + interest + "</mark>,<br/>in the year <mark>" + year.toString() + "</mark><br/>";
     }
 }
 
